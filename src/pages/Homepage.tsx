@@ -785,9 +785,12 @@ const Homepage: FunctionComponent = () => {
                   <div className={styles.tips}>Tips</div>
                   <div className={styles.howWeWork}>Quarantine Rules</div>
                 </div>
+               
               </div>
+              
             </footer>
           </div>
+         
         </div>
         {isMatterhornPopupOpen && (
           <PortalPopup
